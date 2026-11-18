@@ -1,0 +1,11 @@
+﻿basin_key,basin_name,basin_normalized,first_seen_date,last_seen_date,number_of_fields,number_of_wells
+0,Unknown / Not Reported,UNKNOWNNOTREPORTED,,,0,0
+1,Alagoas,ALAGOAS,2019-01-01,2026-05-01,1,1
+2,Camamu,CAMAMU,2019-01-01,2026-05-01,1,6
+3,Campos,CAMPOS,2019-01-01,2026-05-01,61,1189
+4,Ceará,CEARA,2019-01-01,2022-08-01,4,66
+5,Espírito Santo,ESPIRITOSANTO,2019-01-01,2026-05-01,6,22
+6,Potiguar,POTIGUAR,2019-01-01,2026-05-01,9,157
+7,Recôncavo,RECONCAVO,2019-01-01,2023-03-01,3,94
+8,Santos,SANTOS,2019-01-01,2026-05-01,41,401
+9,Sergipe,SERGIPE,2019-01-01,2026-05-01,8,101
