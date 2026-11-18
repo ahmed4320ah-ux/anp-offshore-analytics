@@ -1,0 +1,6 @@
+old_path,new_path,old_rows,new_rows,old_cols,new_cols,common_numeric_columns,changed_numeric_columns,numeric_values_exact
+SYNTHETIC_ESP/Dim_ESP_Equipment_Synthetic.csv,ESP_CONDITION_MONITORING/Dim_ESP_Equipment.csv,602,602,28,28,8,0,True
+SYNTHETIC_ESP/Fact_ESP_Monthly_Condition_Synthetic.csv,ESP_CONDITION_MONITORING/Fact_ESP_Monthly_Condition.csv,33868,33868,32,32,20,0,True
+SYNTHETIC_ESP/Fact_ESP_Maintenance_Synthetic.csv,ESP_CONDITION_MONITORING/Fact_ESP_Maintenance.csv,1324,1324,24,24,9,0,True
+SYNTHETIC_ESP/Fact_ESP_Failures_Synthetic.csv,ESP_CONDITION_MONITORING/Fact_ESP_Failures.csv,331,331,25,25,8,0,True
+ML/ESP_ML_Feature_Table.csv,ml/ESP_ML_Feature_Table.csv,33868,33868,74,74,67,0,True

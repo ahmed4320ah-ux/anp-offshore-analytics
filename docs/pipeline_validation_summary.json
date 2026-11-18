@@ -1,0 +1,24 @@
+{
+  "esp_count": 423,
+  "alert_count": 162,
+  "avg_failure_probability_90d": 0.023911113178882736,
+  "scoring_month": "2026-05-01",
+  "risk_distribution": {
+    "LOW": 203,
+    "HIGH": 152,
+    "MEDIUM": 58,
+    "CRITICAL": 10
+  },
+  "dashboard_exists": true,
+  "dashboard_size_mb": 15.75,
+  "quality_checks": {
+    "non_empty_predictions": true,
+    "probabilities_in_0_1": true,
+    "risk_levels_valid": true,
+    "alerts_match_threshold": true,
+    "single_snapshot_month": true,
+    "dashboard_generated": true,
+    "current_esp_count_matches_reference": true,
+    "current_alert_count_matches_reference": true
+  }
+}

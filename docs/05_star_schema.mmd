@@ -1,0 +1,24 @@
+erDiagram
+    DIM_DATE ||--o{ FACT_MONTHLY_ACTIVITY : dates
+    DIM_STATE ||--o{ FACT_MONTHLY_ACTIVITY : states
+    DIM_BASIN ||--o{ FACT_MONTHLY_ACTIVITY : basins
+    DIM_FIELD ||--o{ FACT_MONTHLY_ACTIVITY : fields
+    DIM_WELL ||--o{ FACT_MONTHLY_ACTIVITY : wells
+    DIM_FACILITY ||--o{ FACT_MONTHLY_ACTIVITY : facilities
+    DIM_DATE ||--o{ FACT_WELL_MONTH : dates
+    DIM_WELL ||--o{ FACT_WELL_MONTH : wells
+    DIM_FIELD ||--o{ FACT_WELL_MONTH : primary_field
+    DIM_FACILITY ||--o{ FACT_WELL_MONTH : primary_facility
+    DIM_DATE ||--o{ FACT_INTERVENTION : intervention_dates
+    DIM_WELL ||--o{ FACT_INTERVENTION : wells
+    DIM_FIELD ||--o{ FACT_INTERVENTION : fields
+    DIM_BASIN ||--o{ FACT_INTERVENTION : basins
+    DIM_COMPANY ||--o{ FACT_INTERVENTION : operators
+    DIM_FIELD ||--o{ BRIDGE_FIELD_CONCESSIONAIRE : owns
+    DIM_COMPANY ||--o{ BRIDGE_FIELD_CONCESSIONAIRE : participates
+    DIM_DATE ||--o{ AGG_WELL_MONTH_ANALYTICS : dates
+    DIM_WELL ||--o{ AGG_WELL_MONTH_ANALYTICS : wells
+    DIM_DATE ||--o{ AGG_FIELD_MONTH : dates
+    DIM_FIELD ||--o{ AGG_FIELD_MONTH : fields
+    DIM_DATE ||--o{ AGG_FACILITY_MONTH : dates
+    DIM_FACILITY ||--o{ AGG_FACILITY_MONTH : facilities

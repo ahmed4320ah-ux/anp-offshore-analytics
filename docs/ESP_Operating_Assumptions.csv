@@ -1,0 +1,17 @@
+﻿assumption,value_or_rule,source,confidence_or_url
+classification_policy,PRODUCTION/DERIVED/ESP-CONDITION remain separated,Project governance,HIGH
+esp_assignment,ESP equipment assignments follow the approved history / continuity / liquid-rate eligibility profile,Project configuration,HIGH
+cohort_rule,>=24 producing months; >=36 observed months; last observation 2026-05-01; median active liquid >= 25.0 m3/d,Project engineering screen + SLB low-rate guidance,MEDIUM
+motor_power_capability,Published ESP motor capability is 7.5 kW to above 750 kW; project operating range is 15-650 kW,SLB,https://www.slb.com/-/media/files/oilfield-review/defining-esp.ashx
+motor_voltage,Public reference states typical oilfield ESP motor voltage 460-4200 V at 60 Hz,SLB,https://www.slb.com/-/media/files/oilfield-review/defining-esp.ashx
+pump_speed,Published VSD ESP capability exceeds 5000 rpm; operating frequency follows a conservative monthly band around the documented 60 Hz baseline,SLB,https://www.slb.com/-/media/files/oilfield-review/defining-esp.ashx
+flow_capability,Published ESP lift range is approximately 16-4770 m3/d; project design-flow operating range is 25-4770 m3/d,SLB,https://www.slb.com/-/media/files/oilfield-review/defining-esp.ashx
+motor_voltage_high_end,CENtrilift XP motor datasheet includes 4500 V models and horsepower up to 800 hp,Baker Hughes,https://dam.bakerhughes.com/m/2add056674fe1242/original/CENtrilift-XP-xtreme-performance-motors-spec.pdf
+pressure_temperature_measurement,"Zenith GFI ESP gauge range: intake/discharge pressure 0-5800 psia (400 bar), intake temperature 0-150 C, motor winding temperature 0-210 C",Baker Hughes,https://dam.bakerhughes.com/m/e2eaa4fad5215ef/original/Zenith-GFI-ESP-gauge-spec.pdf
+vibration_pattern_reference,"ESPset reference supports the vibration-fault taxonomy and validation rules",UFES/NINFA,https://github.com/NINFA-UFES/ESPset
+offshore_event_pattern_reference,"Petrobras 3W reference supports the offshore event taxonomy and validation rules",Petrobras,https://github.com/petrobras/3W
+failure_rate,0.1 failure events per equipment-year baseline,ESP operating configuration,PROJECT_CONFIGURATION
+replacement_probability,0.55,ESP operating configuration,MEDIUM
+false_alarm_rate,0.03,ESP operating configuration,MEDIUM
+pump_stages,60-300 stage operating range retained for sensitivity review; optional in the V1 ML feature set,ESP operating configuration,LOW
+record_volume,cohort=429; equipment=602; condition=33868; failures=331,Pipeline output,HIGH

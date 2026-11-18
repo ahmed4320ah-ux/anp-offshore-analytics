@@ -1,0 +1,17 @@
+{
+  "production_rows": 138358,
+  "alias_crosswalk_rows": 352,
+  "field_alias_variants": 4,
+  "facility_alias_variants": 26,
+  "oot_rows": 843,
+  "oot_failures": 32,
+  "selected_threshold": 0.01892152490047861,
+  "calibration": {
+    "rows": 843,
+    "event_rate": 0.03795966785290629,
+    "raw_brier": 0.09557301551103592,
+    "calibrated_brier": 0.025790372593580163,
+    "brier_improvement": 0.06978264291745576
+  },
+  "scientific_boundary": "ANP production context comes from the repaired/derived production layer. ESP equipment, condition, maintenance and failure records come from the separately governed ESP_CONDITION_MONITORING domain. The saved XGBoost score is a project equipment-risk module, not field-certified SCADA validation or proof that every linked well is currently ESP/BCS."
+}

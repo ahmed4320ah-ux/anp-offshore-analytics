@@ -1,0 +1,11 @@
+﻿test,actual,expected,status
+Fact_Monthly_Activity_rows,138358,138358,PASS
+allocation_record_key_duplicates,0,0,PASS
+2019_repaired_numeric_cells,28973,27393,PASS
+Production_View_rows,69690,69690,PASS
+Injection_View_rows,37063,37063,PASS
+Fact_Well_Month_PK_duplicates,0,0,PASS
+null_FK_cells_after_unknown_member_patch,0,0,PASS
+negative_months_since_first_activity,0,0,PASS
+negative_months_since_first_production,0,0,PASS
+calendar_lag_1m_semantic_errors,0,0,PASS

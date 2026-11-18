@@ -1,0 +1,14 @@
+field,source_unit,dashboard_unit,conversion_policy,meaning
+oil_production_m3,m³,m³,none,Produced oil
+condensate_production_m3,m³,m³,none,Produced condensate
+water_production_m3,m³,m³,none,Produced water
+associated_gas_production_thousand_m3,10³ m³,m³,×1000 only where explicitly labeled as converted,Associated gas
+non_associated_gas_production_thousand_m3,10³ m³,m³,×1000 only where explicitly labeled as converted,Non-associated gas
+gas_injection_thousand_m3,10³ m³,10³ m³,kept in source unit in Injection page,Gas injection
+co2_injection_thousand_m3,10³ m³,10³ m³,kept in source unit; large values flagged,CO₂ injection
+nitrogen_injection_thousand_m3,10³ m³,10³ m³,kept in source unit,Nitrogen injection
+secondary_recovery_water_injection_m3,m³,m³,none,Recovery water injection
+water_disposal_injection_m3,m³,m³,none,Water disposal injection
+steam_injection_tonnes,tonnes,tonnes,none,Steam injection
+polymer_injection_m3,m³,m³,none,Polymer injection
+other_fluids_injection_m3,m³,m³,none,Other fluid injection
