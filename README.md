@@ -2,7 +2,7 @@
 
 DigiLians graduation project covering Brazilian offshore oil and gas production, well interventions, and an electric submersible pump (ESP) risk prototype.
 
-**[Open the interactive dashboard](https://ahmed4320ah-ux.github.io/anp-offshore-analytics/)** · [Power BI report](power-bi/) · [Star schema](docs/05_star_schema.md) · [Pipeline source](source/v11.1/) · [Data samples](data/samples/)
+**[Open the interactive dashboard](https://ahmed4320ah-ux.github.io/anp-offshore-analytics/)** · [Download Power BI report](https://github.com/ahmed4320ah-ux/anp-offshore-analytics/releases/download/v11.2.0/ANP_Offshore_Dashboard.pbix) · [Star schema](docs/05_star_schema.md) · [Download Python pipeline and sample data](https://github.com/ahmed4320ah-ux/anp-offshore-analytics/releases/download/v11.2.0/ANP_Offshore_Pipeline_V11_1.zip)
 
 ## Project scope
 
@@ -20,8 +20,12 @@ DigiLians graduation project covering Brazilian offshore oil and gas production,
 
 Public [ANP production and intervention data](https://www.gov.br/anp/) underpin the historical analysis. ESP equipment, sensor, maintenance, and failure records are **synthetic** and use documented engineering assumptions. See the [ESP operating assumptions](docs/ESP_Operating_Assumptions.csv) and [dataset comparison](docs/V11_ESP_NUMERIC_EQUIVALENCE.csv).
 
-The saved XGBoost prototype scores equipment failure risk over 90 days. Intervention risk and next-month oil production have model-ready datasets. The release contains exploratory baselines for those tasks and only deploys saved scores for the ESP prototype. This demonstration is for portfolio review and research.
+The XGBoost prototype scores equipment failure risk over 90 days. Intervention risk and next-month oil production have model-ready datasets and exploratory baselines. This release displays the saved ESP scores and serves as a portfolio and research demonstration.
 
-## Releases and reproducibility
+## Reports and reproducibility
 
-The live dashboard serves the **V11.2** static release with added labels identifying the synthetic ESP data. It displays saved results. The [curated V11.1 source](source/v11.1/) shows the pipeline and dashboard builder. A full V11.1 rebuild requires the matching datasets, model artifacts, and baseline files from the original runtime package. The samples here illustrate the schema. V11.2 HTML and its [release notes](docs/web-release/RELEASE_NOTES_V11.md) are included.
+The live dashboard serves the **V11.2** static release and displays saved results. The **V11.1** archive contains the curated Python ETL, dashboard builders, dimensional model, validation notes, and sample CSVs. A full V11.1 rebuild requires the matching datasets, model artifacts, and baseline files from the original runtime package.
+
+The PBIX opens in Power BI Desktop and contains six pages. Refreshing the report requires the original sources and valid local connections.
+
+[Data model](docs/05_data_model_documentation.md) · [Data dictionary](docs/Final_Data_Dictionary_v3.csv) · [Validation report](docs/10_validation_report.md) · [Release notes and downloads](https://github.com/ahmed4320ah-ux/anp-offshore-analytics/releases/tag/v11.2.0)
